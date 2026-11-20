@@ -1,0 +1,7 @@
+{
+  "name": "Yvsim.VideoPlayer.Tests.Editor",
+  "rootNamespace": "Yvsim.VideoPlayerTests",
+  "references": ["Yvsim.VideoPlayer", "UnityEngine.UI"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

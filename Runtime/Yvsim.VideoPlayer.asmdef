@@ -1,0 +1,8 @@
+{
+  "name": "Yvsim.VideoPlayer",
+  "rootNamespace": "Yvsim.Video",
+  "references": [
+    "UnityEngine.UI",
+    "Yvsim.InspectorGroups"
+  ]
+}

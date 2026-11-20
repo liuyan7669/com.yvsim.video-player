@@ -1,0 +1,12 @@
+{
+  "name": "Yvsim.VideoPlayer.Editor",
+  "rootNamespace": "Yvsim.Video.Editor",
+  "references": [
+    "Yvsim.VideoPlayer",
+    "Yvsim.InspectorGroups.Editor",
+    "Yvsim.InspectorGroups"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ]
+}

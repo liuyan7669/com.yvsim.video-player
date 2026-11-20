@@ -1,0 +1,40 @@
+{
+  "name": "com.yvsim.video-player",
+  "version": "1.0.0",
+  "displayName": "Video Player",
+  "description": "基于 Unity VideoPlayer 与 UGUI 的视频播放组件，适合教学视频、操作演示和仿真系统中的内嵌播放器。\n\n主要功能：\n1. 打开 VideoClip、URL 或 StreamingAssets 相对路径，支持异步准备和首帧就绪回调。\n2. 播放、暂停、停止和关闭，查询当前播放状态；通过时间赋值或进度控件跳转，并接收自然结束回调。\n3. 管理音量、静音、进度条与时长文本，由 VideoPlayerUGUI 统一协调渲染和控制组件。\n4. 将播放器 RectTransform 铺满父容器，再恢复窗口布局；支持重新记录恢复位置。\n5. 切换源、停止或停用时取消未完成首帧等待，关闭/销毁时按接口释放显示纹理。\n\n使用说明：依赖 Inspector Groups，建议从 Sample 中已绑定的播放器 Prefab 开始。这里的全屏是 UGUI 布局切换，不触发浏览器或系统全屏；解码格式、URL 访问与音轨支持由目标平台决定。",
+  "unity": "2021.3",
+  "author": {
+    "name": "Yvsim"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "com.unity.ugui": "1.0.0",
+    "com.unity.modules.video": "1.0.0",
+    "com.yvsim.inspector-groups": "1.0.0",
+    "com.unity.modules.audio": "1.0.0"
+  },
+  "keywords": [
+    "video",
+    "player",
+    "ugui",
+    "media"
+  ],
+  "samples": [
+    {
+      "displayName": "Video Player",
+      "description": "包含已绑定的视频播放器 Prefab、按钮皮肤、PSD 与示例视频。将 VideoPlayer.prefab 放入带 EventSystem 的 Canvas，配置 VideoClip/URL 后操作播放、暂停、进度、音量和布局铺满/恢复；媒体素材需遵守各自许可。",
+      "path": "Samples~/Video Player"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liuyan7669/com.yvsim.video-player.git"
+  },
+  "documentationUrl": "https://github.com/liuyan7669/com.yvsim.video-player#readme",
+  "changelogUrl": "https://github.com/liuyan7669/com.yvsim.video-player/blob/main/CHANGELOG.md",
+  "bugs": {
+    "url": "https://github.com/liuyan7669/com.yvsim.video-player/issues"
+  },
+  "licensesUrl": "https://github.com/liuyan7669/com.yvsim.video-player/blob/main/LICENSE.md"
+}
